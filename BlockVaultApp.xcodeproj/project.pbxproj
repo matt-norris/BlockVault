@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		834334F32BA895CC0033E265 /* BlockVaultAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834334F22BA895CC0033E265 /* BlockVaultAppApp.swift */; };
+		834334F52BA895CC0033E265 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834334F42BA895CC0033E265 /* ContentView.swift */; };
+		834334F72BA895CD0033E265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834334F62BA895CD0033E265 /* Assets.xcassets */; };
+		834334FA2BA895CD0033E265 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834334F92BA895CD0033E265 /* Preview Assets.xcassets */; };
+		834335042BA895CE0033E265 /* BlockVaultAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834335032BA895CE0033E265 /* BlockVaultAppTests.swift */; };
+		8343350E2BA895CE0033E265 /* BlockVaultAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8343350D2BA895CE0033E265 /* BlockVaultAppUITests.swift */; };
+		834335102BA895CE0033E265 /* BlockVaultAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8343350F2BA895CE0033E265 /* BlockVaultAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		834335002BA895CE0033E265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834334E72BA895CB0033E265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834334EE2BA895CB0033E265;
+			remoteInfo = BlockVaultApp;
+		};
+		8343350A2BA895CE0033E265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834334E72BA895CB0033E265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834334EE2BA895CB0033E265;
+			remoteInfo = BlockVaultApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		834334EF2BA895CB0033E265 /* BlockVaultApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockVaultApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		834334F22BA895CC0033E265 /* BlockVaultAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockVaultAppApp.swift; sourceTree = "<group>"; };
+		834334F42BA895CC0033E265 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		834334F62BA895CD0033E265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		834334F92BA895CD0033E265 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		834334FF2BA895CE0033E265 /* BlockVaultAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockVaultAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		834335032BA895CE0033E265 /* BlockVaultAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockVaultAppTests.swift; sourceTree = "<group>"; };
+		834335092BA895CE0033E265 /* BlockVaultAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockVaultAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8343350D2BA895CE0033E265 /* BlockVaultAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockVaultAppUITests.swift; sourceTree = "<group>"; };
+		8343350F2BA895CE0033E265 /* BlockVaultAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockVaultAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		834334EC2BA895CB0033E265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834334FC2BA895CE0033E265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834335062BA895CE0033E265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		834334E62BA895CB0033E265 = {
+			isa = PBXGroup;
+			children = (
+				834334F12BA895CB0033E265 /* BlockVaultApp */,
+				834335022BA895CE0033E265 /* BlockVaultAppTests */,
+				8343350C2BA895CE0033E265 /* BlockVaultAppUITests */,
+				834334F02BA895CB0033E265 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		834334F02BA895CB0033E265 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				834334EF2BA895CB0033E265 /* BlockVaultApp.app */,
+				834334FF2BA895CE0033E265 /* BlockVaultAppTests.xctest */,
+				834335092BA895CE0033E265 /* BlockVaultAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		834334F12BA895CB0033E265 /* BlockVaultApp */ = {
+			isa = PBXGroup;
+			children = (
+				834334F22BA895CC0033E265 /* BlockVaultAppApp.swift */,
+				834334F42BA895CC0033E265 /* ContentView.swift */,
+				834334F62BA895CD0033E265 /* Assets.xcassets */,
+				834334F82BA895CD0033E265 /* Preview Content */,
+			);
+			path = BlockVaultApp;
+			sourceTree = "<group>";
+		};
+		834334F82BA895CD0033E265 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				834334F92BA895CD0033E265 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		834335022BA895CE0033E265 /* BlockVaultAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				834335032BA895CE0033E265 /* BlockVaultAppTests.swift */,
+			);
+			path = BlockVaultAppTests;
+			sourceTree = "<group>";
+		};
+		8343350C2BA895CE0033E265 /* BlockVaultAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8343350D2BA895CE0033E265 /* BlockVaultAppUITests.swift */,
+				8343350F2BA895CE0033E265 /* BlockVaultAppUITestsLaunchTests.swift */,
+			);
+			path = BlockVaultAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		834334EE2BA895CB0033E265 /* BlockVaultApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834335132BA895CE0033E265 /* Build configuration list for PBXNativeTarget "BlockVaultApp" */;
+			buildPhases = (
+				834334EB2BA895CB0033E265 /* Sources */,
+				834334EC2BA895CB0033E265 /* Frameworks */,
+				834334ED2BA895CB0033E265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockVaultApp;
+			productName = BlockVaultApp;
+			productReference = 834334EF2BA895CB0033E265 /* BlockVaultApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		834334FE2BA895CE0033E265 /* BlockVaultAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834335162BA895CE0033E265 /* Build configuration list for PBXNativeTarget "BlockVaultAppTests" */;
+			buildPhases = (
+				834334FB2BA895CE0033E265 /* Sources */,
+				834334FC2BA895CE0033E265 /* Frameworks */,
+				834334FD2BA895CE0033E265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834335012BA895CE0033E265 /* PBXTargetDependency */,
+			);
+			name = BlockVaultAppTests;
+			productName = BlockVaultAppTests;
+			productReference = 834334FF2BA895CE0033E265 /* BlockVaultAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		834335082BA895CE0033E265 /* BlockVaultAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834335192BA895CE0033E265 /* Build configuration list for PBXNativeTarget "BlockVaultAppUITests" */;
+			buildPhases = (
+				834335052BA895CE0033E265 /* Sources */,
+				834335062BA895CE0033E265 /* Frameworks */,
+				834335072BA895CE0033E265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8343350B2BA895CE0033E265 /* PBXTargetDependency */,
+			);
+			name = BlockVaultAppUITests;
+			productName = BlockVaultAppUITests;
+			productReference = 834335092BA895CE0033E265 /* BlockVaultAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		834334E72BA895CB0033E265 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					834334EE2BA895CB0033E265 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					834334FE2BA895CE0033E265 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 834334EE2BA895CB0033E265;
+					};
+					834335082BA895CE0033E265 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 834334EE2BA895CB0033E265;
+					};
+				};
+			};
+			buildConfigurationList = 834334EA2BA895CB0033E265 /* Build configuration list for PBXProject "BlockVaultApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 834334E62BA895CB0033E265;
+			productRefGroup = 834334F02BA895CB0033E265 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				834334EE2BA895CB0033E265 /* BlockVaultApp */,
+				834334FE2BA895CE0033E265 /* BlockVaultAppTests */,
+				834335082BA895CE0033E265 /* BlockVaultAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		834334ED2BA895CB0033E265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834334FA2BA895CD0033E265 /* Preview Assets.xcassets in Resources */,
+				834334F72BA895CD0033E265 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834334FD2BA895CE0033E265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834335072BA895CE0033E265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		834334EB2BA895CB0033E265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834334F52BA895CC0033E265 /* ContentView.swift in Sources */,
+				834334F32BA895CC0033E265 /* BlockVaultAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834334FB2BA895CE0033E265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834335042BA895CE0033E265 /* BlockVaultAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834335052BA895CE0033E265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8343350E2BA895CE0033E265 /* BlockVaultAppUITests.swift in Sources */,
+				834335102BA895CE0033E265 /* BlockVaultAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		834335012BA895CE0033E265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834334EE2BA895CB0033E265 /* BlockVaultApp */;
+			targetProxy = 834335002BA895CE0033E265 /* PBXContainerItemProxy */;
+		};
+		8343350B2BA895CE0033E265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834334EE2BA895CB0033E265 /* BlockVaultApp */;
+			targetProxy = 8343350A2BA895CE0033E265 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		834335112BA895CE0033E265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		834335122BA895CE0033E265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		834335142BA895CE0033E265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlockVaultApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = haunter.BlockVaultApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		834335152BA895CE0033E265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlockVaultApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = haunter.BlockVaultApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		834335172BA895CE0033E265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = haunter.BlockVaultAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockVaultApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlockVaultApp";
+			};
+			name = Debug;
+		};
+		834335182BA895CE0033E265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = haunter.BlockVaultAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockVaultApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlockVaultApp";
+			};
+			name = Release;
+		};
+		8343351A2BA895CE0033E265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = haunter.BlockVaultAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlockVaultApp;
+			};
+			name = Debug;
+		};
+		8343351B2BA895CE0033E265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = haunter.BlockVaultAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlockVaultApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		834334EA2BA895CB0033E265 /* Build configuration list for PBXProject "BlockVaultApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834335112BA895CE0033E265 /* Debug */,
+				834335122BA895CE0033E265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834335132BA895CE0033E265 /* Build configuration list for PBXNativeTarget "BlockVaultApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834335142BA895CE0033E265 /* Debug */,
+				834335152BA895CE0033E265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834335162BA895CE0033E265 /* Build configuration list for PBXNativeTarget "BlockVaultAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834335172BA895CE0033E265 /* Debug */,
+				834335182BA895CE0033E265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834335192BA895CE0033E265 /* Build configuration list for PBXNativeTarget "BlockVaultAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8343351A2BA895CE0033E265 /* Debug */,
+				8343351B2BA895CE0033E265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 834334E72BA895CB0033E265 /* Project object */;
+}
